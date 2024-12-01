@@ -40,7 +40,7 @@ A straightforward Python script for **Ping of Death (PoD)** attacks with IP spoo
 ## **Usage**
 Run the script with the following syntax:
 ```bash
-sudo python3 final.py <target_ip> <spoofed_ip_list>
+sudo python3 main.py <target_ip> <spoofed_ip_list>
 ```
 
 ### **Parameters**
@@ -53,7 +53,7 @@ sudo python3 final.py <target_ip> <spoofed_ip_list>
 
 ```bash
 ┌──(rajexploit404㉿rajsec)-[~/POD]
-└─$ sudo python3 final.py 123.123.123.123 spoof.txt
+└─$ sudo python3 main.py 123.123.123.123 spoof.txt
 ```
 
 Output:
@@ -86,7 +86,7 @@ If the script is run without `sudo` or with insufficient arguments, the followin
 
 ```plaintext
 [!] This script must be run with sudo privileges!
-Usage: sudo python3 final.py <target_ip> <spoofed_ip_list>
+Usage: sudo python3 main.py <target_ip> <spoofed_ip_list>
 ```
 
 ---
