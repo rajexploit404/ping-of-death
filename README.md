@@ -8,7 +8,6 @@ A straightforward Python script for **Ping of Death (PoD)** attacks with IP spoo
 - Uses **Scapy** to send spoofed ICMP packets.
 - Supports **multi-threading** and **multi-processing** for optimal performance.
 - Customizable input for spoofed IP lists and target IPs.
-- Designed with a clear and professional **RAJSEC banner**.
 
 ---
 
