@@ -11,20 +11,6 @@ A straightforward Python script for **Ping of Death (PoD)** attacks with IP spoo
 
 ---
 
-## **Banner**
-
-```plaintext
-  ██████╗  █████╗      ███████╗███████╗███████╗ ██████╗
- ██╔════╝ ██╔══██╗     ██╔════╝██╔════╝██╔════╝██╔═══██╗
- ██║  ███╗███████║     ███████╗█████╗  █████╗  ██║   ██║
- ██║   ██║██╔══██║     ╚════██║██╔══╝  ██╔══╝  ██║   ██║
- ╚██████╔╝██║  ██║     ███████║███████╗██║     ╚██████╔╝
-  ╚═════╝ ╚═╝  ╚═╝     ╚══════╝╚══════╝╚═╝      ╚═════╝
- 
-  Simple PoD with IP Spoofed by rajexploit404
-```
-
----
 
 ## **Requirements**
 1. **Python 3.8+**
@@ -87,6 +73,16 @@ If the script is run without `sudo` or with insufficient arguments, the followin
 [!] This script must be run with sudo privileges!
 Usage: sudo python3 main.py <target_ip> <spoofed_ip_list>
 ```
+
+---
+
+
+## **Generating Spoofed IPs**
+You can create your own list of spoofed IP addresses for this script. Use tools or online generators like:
+
+**[IPVoid Random IP Generator](https://www.ipvoid.com/random-ip/)**
+
+Copy the generated IPs in a text file (e.g., `spoof.txt`) for use with the script.
 
 ---
 
