@@ -1,4 +1,4 @@
-# Simple DDoS with IP Spoofing by **rajexploit404**
+# Simple DDoS **Ping of Death (PoD)** with IP Spoofing by **rajexploit404**
 
 A straightforward Python script for **Ping of Death (PoD)** attacks with IP spoofing. Built for educational and research purposes only. Misuse of this tool is strictly prohibited.
 
